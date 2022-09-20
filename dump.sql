@@ -5,7 +5,7 @@ DROP TABLE IF EXISTS messages CASCADE;
 DROP TABLE IF EXISTS react_post CASCADE;
 
 CREATE TABLE account (
-    first_name varchar(80),
+    firstName varchar(80),
     last_name varchar(80),
     nickname varchar(50) DEFAULT NULL,
     birthday date,
@@ -52,15 +52,15 @@ CREATE TABLE react_post (
 
 );
 /* les comptes*/
-INSERT INTO account(first_name, last_name, birthday, gender, email, id_account) 
+INSERT INTO account(firstName last_name, birthday, gender, email, id_account) 
 VALUES('Iandry', 'Rakoto', '2020-10-20', 'F', 'lovasoa@gmail.com', 1);
-INSERT INTO account(first_name, last_name, birthday, gender, email, id_account)
+INSERT INTO account(firstName, last_name, birthday, gender, email, id_account)
 VALUES('Manja', 'Rakoto', '2020-11-20', 'F', 'mnjx@gmail.com', 2);
-INSERT INTO account(first_name, last_name, birthday, gender, email, id_account)
+INSERT INTO account(firstName, last_name, birthday, gender, email, id_account)
 VALUES('Bra', 'Randria', '2020-11-20', 'M', 'brx@gmail.com', 3);
-INSERT INTO account(first_name, last_name, birthday, gender, email, id_account)
+INSERT INTO account(firstName, last_name, birthday, gender, email, id_account)
 VALUES('Mista', 'Lova', '2020-11-20', 'M', 'lova@gmail.com', 4);
-INSERT INTO account(first_name, last_name, birthday, gender, email, id_account)
+INSERT INTO account(firstName, last_name, birthday, gender, email, id_account)
 VALUES('Afi', 'Ndra', '2020-11-20', 'F', 'afi@gmail.com', 5);
 
 /*amis*/
